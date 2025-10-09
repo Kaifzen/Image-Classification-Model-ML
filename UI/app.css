@@ -1,0 +1,126 @@
+/* Navbar styling */
+.navbar {
+  background-color: transparent; /* Remove background color */
+  margin-bottom: 20px; /* Add margin below navbar */
+  border-bottom: none; /* Remove border if any */
+}
+
+.navbar-brand {
+  color: #d3d3d3; /* Light grey color for the navbar brand */
+  font-size: 2.5rem; /* Larger font size for prominence */
+  font-weight: bold; /* Bold text to make it stand out */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds shadow to make text stand out */
+  letter-spacing: 1px; /* Slightly increase letter spacing */
+  font-family: 'Arial', sans-serif; /* Change font family if needed, e.g., Arial */
+}
+
+/* Background and text color */
+body {
+  background: #222021; /* Charcoal background color */
+  color: #fff; /* White text color */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Set a default font */
+  min-height: 100vh; /* Ensure body takes full viewport height */
+}
+
+/* Adjust margins for card wrappers */
+.card-wrapper {
+  margin: 5% 0;
+}
+
+/* Responsive image sizing */
+.custom-circle-image {
+  width: 10vw; /* Responsive width */
+  height: 10vw; /* Responsive height */
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Card styling */
+.card {
+  border: none; /* Remove card border */
+  border-radius: 8px; /* Rounded corners for the card */
+  background: rgba(255, 255, 255, 0.1); /* Transparent white background for better contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for visibility */
+}
+
+.card-body {
+  background: rgba(255, 255, 255, 0.2); /* Slightly opaque white background for card body */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners to match card */
+}
+
+/* Card title styling */
+.card-title {
+  letter-spacing: 1.1px;
+  color: #fff; /* White color for card title */
+}
+
+/* Dropzone styling */
+.dropzone {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #fff; /* White border for dropzone */
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone .dz-message {
+  color: #fff; /* White text for dropzone message */
+}
+
+/* Error message styling */
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: #fff; /* White color for error text */
+  text-align: center;
+  background: transparent; /* Ensure no white background */
+  border: none; /* Ensure no border */
+}
+
+/* Styling for class table */
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: #fff; /* White text color for table */
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #555; /* Darker grey border for table cells */
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background for table cells */
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333; /* Darker grey background for table header */
+  color: #fff; /* White color for table header text */
+}
+
+/* Centering dropzone on the page */
+.dropzone-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust height as needed */
+  margin-top: 3%; /* Space from the photos */
+}
+
+/* Centering the result and class table */
+#resultHolder, #divClassTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
